@@ -1,0 +1,139 @@
+body{
+  background-image: url("images/Background.png");
+  max-width: 1200px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Dancing Script', cursive;
+}
+
+span, p, button {
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+}
+
+button {
+  background-color: #001B40;
+  text-align: center;
+  color:white;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  padding:5px;
+}
+
+.navbar {
+  width:100%;
+  color: white;
+}
+
+.floatRight{
+  float:right;
+}
+
+.floatLeft{
+  float: left;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  padding: 150px;
+}
+
+.clear{
+  clear:both;
+}
+
+.hero h1{
+  font-size:48px;
+}
+
+.hero button{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fullwidth {
+  width:100%;
+  height:190px;
+  background-color: white;
+  margin-bottom: 40px;
+  text-align: center;
+  box-shadow: 2px 4px 4px grey;
+}
+
+.fullwidth h2 {
+  padding-top: 40px;
+}
+
+.features p {
+  max-width:50%;
+  position:relative;
+  display: inline-block;
+}
+
+.thirdwidth {
+  width:28%;
+  height: 250px;
+  background-color: white;
+  box-shadow: 2px 4px 4px grey;
+  margin-bottom: 40px;
+  text-align: center;
+  float:left;
+  position: relative;
+}
+
+#first_third_width{
+  margin-right: 8%;
+}
+
+#second_third_width{
+  margin-right: 8%;
+}
+
+.thirdwidth button{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.thirdwidth img {
+  max-width: 100%;
+}
+
+.footer1{
+  background-color: #001B40;
+  display: inline-block;
+  width:100%
+}
+
+.thirdwidthfooter{
+  width:28%;
+  height: 250px;
+  text-align: left;
+  float:left;
+  color:white;
+  font-size: 14px;
+  padding-left: 3%;
+}
+
+#first_third_width_footer{
+  padding-right: 3%;
+}
+
+#second_third_width_footer{
+  padding-right: 4%;
+}
+
+.thirdwidthfooter p{
+  font:white;
+}
+
+.footer2{
+  color:white;
+}
